@@ -13,7 +13,7 @@ public class Test {
             public void run() {
                 try {
                     TimeUnit.MINUTES.sleep(10);
-                    System.out.println("一分钟到了");
+                    System.out.println("十分钟到了");
                     System.out.println(new Date());
                 }catch (InterruptedException e){
                     e.printStackTrace();
